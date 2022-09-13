@@ -1,0 +1,36 @@
+.footer {
+  background-color: #000000;
+  color: #FFFFFF;
+  padding: 35px 0 30px;
+}
+
+.footer__container {
+  display: grid;
+  gap: 45px;
+  grid-template-areas: "logo navigation" "copyright .";
+}
+
+.footer__logo {
+  grid-area: logo;
+}
+
+.footer__navigation {
+  grid-area: navigation;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.footer__copyright {
+  grid-area: copyright;
+  font-size: 12px;
+  line-height: 130%;
+}
+
+@media (max-width: 320px) {
+  .footer__container {
+    grid-template-areas: 
+    "logo"
+    "navigation"
+    "copyright"; 
+  }
+}
