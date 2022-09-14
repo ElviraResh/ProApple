@@ -1,0 +1,41 @@
+.goods {
+  padding: 40px 0;
+}
+
+.goods__tagline {
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+.goods__title {
+  font-weight: 600;
+  font-size: 26px;
+  text-align: center;
+  margin-bottom: 29px;
+}
+
+.goods__helper {
+  position: relative;
+
+}
+
+.goods__arrow {
+  position: absolute;
+  top: 115px;
+  display: block;
+  width: 60px;
+  height: 60px;
+  background-image: url('../img/arrow.svg');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.goods__arrow-prev {
+  left: -5px;
+}
+
+.goods__arrow-next {
+  right: -5px;
+  transform: rotate(180deg);
+}

@@ -4,10 +4,13 @@
   padding: 35px 0 30px;
 }
 
-.footer__container {
+.footer__content {
   display: grid;
-  gap: 45px;
-  grid-template-areas: "logo navigation" "copyright .";
+  gap: 30px;
+  grid-template-areas:
+    "logo"
+    "navigation"
+    "copyright";
 }
 
 .footer__logo {
@@ -16,21 +19,22 @@
 
 .footer__navigation {
   grid-area: navigation;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 22px;
+}
+
+.navigation__list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 20px;
 }
 
 .footer__copyright {
   grid-area: copyright;
-  font-size: 12px;
-  line-height: 130%;
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 17px;
 }
 
-@media (max-width: 320px) {
-  .footer__container {
-    grid-template-areas: 
-    "logo"
-    "navigation"
-    "copyright"; 
-  }
-}
+@media (max-width: 320px) {}

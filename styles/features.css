@@ -1,0 +1,50 @@
+.features {
+  padding: 40px 0;
+  margin-bottom: 40px;
+}
+
+.features__tagline {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+.features__title {
+  font-weight: 600;
+  font-size: 26px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.features__image {
+  margin-bottom: 24px;
+}
+
+.features__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+
+.features__list {
+
+}
+
+.features__item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.features__item-title {
+  font-weight: 300;
+  font-size: 14px;
+  margin-bottom: 18px;
+}
+
+.features__item-value {
+  font-weight: 400;
+  font-size: 16px;
+}
+
