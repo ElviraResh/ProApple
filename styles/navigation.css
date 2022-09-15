@@ -1,7 +1,17 @@
 .navigation__list {
   display: flex;
-  gap: 50px;
+  gap: 20px 50px;
 }
+
+.navigation__list-column-mob {
+  flex-direction: column;
+}
+
+@media (min-width: 560px) {
+  .navigation__list-column-mob {
+    flex-direction: row;
+  }
+} 
 
 @media (min-width: 1024px) {
   .navigation__list {

@@ -16,12 +16,16 @@
 }
 
 @media (min-width: 560px) {
+  .header {
+    padding: 24px 24px;
+  }
   .header__logo {
-    margin-left: auto;
+    margin-right: auto;
   }
   .header__navigation{
     order: 0;
     flex-basis: auto;
+    margin-right: 50px;
   }
 }
 

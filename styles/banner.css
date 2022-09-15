@@ -52,6 +52,7 @@ line-height: 100%;
   .banner {
     padding: 120px 0 160px;
     background-image: url('../img/bg-lap.jpg');
+    margin-bottom: 70px;
   }
 
   .banner__content {
