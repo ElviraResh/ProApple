@@ -49,6 +49,10 @@
   background: url('../img/arrow-more.svg') no-repeat center;
 }
 
+.product__more:hover {
+  color: #0017E6;
+}
+
 @media (min-width: 768px) {
   .product {
     width: 340px;

@@ -7,6 +7,10 @@
   flex-direction: column;
 }
 
+.navigation__link:hover {
+  color: #2238FF;
+}
+
 @media (min-width: 560px) {
   .navigation__list-column-mob {
     flex-direction: row;
